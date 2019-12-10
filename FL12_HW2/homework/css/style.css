@@ -37,6 +37,7 @@ div.padding-medium ol li{
 
 div.padding-medium ol li:hover::before{
 	content:">";
+	font-weight: bold;
 }
 .text::after{
   content:"New";
