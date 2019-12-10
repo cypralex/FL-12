@@ -35,7 +35,7 @@ div.padding-medium ol li{
 	list-style-type: lower-alpha;
 }
 
-div.padding-medium ol li::before{
+div.padding-medium ol li:hover::before{
 	content:">";
 }
 .text::after{
