@@ -69,6 +69,10 @@
          line-height: 30px;
          text-indent: 25px;
     }
+     input[type="text"], input[type="email"]{
+	       	border: none;
+	       	border-bottom: 1px solid lightskyblue;
+	   }
      section.tm-content-box input.form-control:focus {
          background-color: lightskyblue;
          border-color: lightskyblue;
