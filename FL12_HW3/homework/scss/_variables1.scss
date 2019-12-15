@@ -1,29 +1,26 @@
-
-
 //urls
 $imageUrl: url(../img/m-h-day.jpg);
 
 //colots
-$bgColor: #fff;
-$color1: #14a0c7;
-$sectionColor: #21232e;
-$bannerColor1: #649411;
-$bannerColor2: #2e5cd6;
-$textColor: black;
-$buttonColor: #699900;
-//fonts
+$colors: (
+	bgColor: #fff,
+	color1: #14a0c7,
+	sectionColor: #21232e,
+	bannerColor1: #649411,
+	bannerColor2: #2e5cd6,
+	textColor: black,
+	buttonColor: #699900
+	);
 
+//fonts
 $fontMain: 'Source Sans Pro', sans-serif; 
 $fontSecondary:  'Hind', sans-serif;
-
-
-
 
 //mixins &
 @mixin button{
 	height: 50px;
 	width: 140px;
-	background-color: $buttonColor;
+	background-color: colors(buttonColor);
 	border: none;
 	border-radius: 2px;
 	color: #fff;
