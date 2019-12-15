@@ -1,14 +1,18 @@
 $imageUrl: url(../img/m-h-night.jpg);
 
-//colots
+//colors
 
-$bgColor: #21232e;
-$color1: #ff4e33;
-$sectionColor: #3b3f50;
-$bannerColor1: #dca108;
-$bannerColor2: #942f50;
-$textColor :#fff;
-$buttonColor:#e3ac00;  
+$colors: (
+	bgColor: #21232e,
+	color1: #ff4e33,
+	sectionColor: #3b3f50,
+	bannerColor1: #dca108,
+	bannerColor2: #942f50,
+	textColor :#fff,
+	buttonColor:#e3ac00  
+);
+
+
 
 //fonts
 
@@ -19,7 +23,7 @@ $fontSecondary: 'Fresca', sans-serif;
 @mixin button{
 	height: 50px;
 	width: 140px;
-	background-color: $buttonColor;
+	background-color: colors(buttonColor);
 	border: none;
 	border-radius: 2px;
 	color: #fff;
