@@ -42,13 +42,13 @@ body{
 			text-align: center;
 			margin-left: 5px;
 			line-height: 1.2;
-			@extend %opacity;
+			@extend .opacity;
 			span{
 				display: block;
 				font-family: $fontSecondary;
 				font-weight: normal;
 				font-size: small;
-				@extend %opacity;
+				@extend .opacity;
 			}	
 	}
 }
@@ -63,7 +63,7 @@ body{
 	font-weight: bold;
 	position: relative;
 	z-index: 1;
-	@extend %opacity;
+	@extend .opacity;
 
 	&::before{
 		 content: "";
@@ -85,7 +85,7 @@ body{
 	content: "\A";
 	white-space: pre-line;
 	text-align: left;
-	@extend %opacity;
+	@extend .opacity;
 }
 .header_button{
 	@include button;
@@ -163,7 +163,7 @@ body{
 	 	}
 	 	.section_card_text{
 	 		margin-top: 40px;
-	 		@extend %opacity;
+	 		@extend .opacity;
 	 		text-align: justify;
 
 	 	}
@@ -194,7 +194,7 @@ body{
 
 		.section_banner_heading{
 			width: 360px;
-			@extend %opacity;
+			@extend .opacity;
 			font-weight: bold;
 			font-size: 26px;
 			&::before{
@@ -210,7 +210,7 @@ body{
 		}
 		.section_banner_text{
 			color: #fff;
-			@extend %opacity;
+			@extend .opacity;
 			font-size: 16px;
 		}
 	}
@@ -238,12 +238,11 @@ body{
 		}
 	}
 	.footer_text{
-		@extend %opacity;
+		@extend .opacity;
 		text-align: left;
 		width: 325px;
-
 	}
 	.footer-cr{
-		@extend %opacity;
+		@extend .opacity;
 	}
 }
