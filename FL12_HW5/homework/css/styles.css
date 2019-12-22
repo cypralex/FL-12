@@ -448,7 +448,7 @@
   .header .header_post .header_post_title {
     font-size: 5vw;
   }
-  .header .header_post .header_posr_text {
+  .header .header_post .header_post_text {
     font-size: 3vw;
   }
 
@@ -662,7 +662,7 @@
   .header .header_post h2.header_post_title {
     font-size: 6vw !important;
   }
-  .header .header_post p.header_posr_text {
+  .header .header_post p.header_post_text {
     font-size: 4vw !important;
   }
 
@@ -706,3 +706,5 @@
     margin: 0 10px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
