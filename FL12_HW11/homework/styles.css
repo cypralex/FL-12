@@ -1,0 +1,11 @@
+.mouseout{
+	background-color: white;
+}
+.mouseover{
+	background-color: lightgrey;
+}
+.openClose{
+	display: none;
+	list-style-type: folder;
+	color: orange;
+}
